@@ -295,7 +295,7 @@ preLoadBackgrounds(level0_regular,level0_round,level1_regular,level1_round,level
 //makeMenu('TYPE','TEXT','LINK','TARGET', 'END (THE LAST MENU)')
 makeMenu('top','Страницы меню')
 makeMenu('sub','Главная страница','/')
-makeMenu('sub','Профиль на GitHub','https://github.com/SlalomJohn/')
+makeMenu('sub','Профиль на GitHub','https://github.com/SlalomJohn/','_blank')
 makeMenu('top','Новости')
 makeMenu('sub','2023 год','/2023-news.html')
 //Starting the menu
