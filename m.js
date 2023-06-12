@@ -300,6 +300,7 @@ makeMenu('top','Новости')
 makeMenu('sub','2023 год','/2023-news.html')
 
 makeMenu('top','MyHomeLib')
+makeMenu('sub','Список изменений',https://github.com/SlalomJohn/MyHomeLib/blob/master/WhatsNew_UTF8.txt')
 makeMenu('sub','2.4.0.851')
 makeMenu('sub2','Sources','https://github.com/SlalomJohn/MyHomeLib/archive/refs/tags/v2.4.0.851.zip')
 makeMenu('sub2','EXE x32','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/MyHomeLib.x86.zip')
