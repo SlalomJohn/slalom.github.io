@@ -1,3 +1,9 @@
+var 
+  now = new Date(),
+  monn = now.getMonth();
+
+if ( monn == 0 || mon == 11 )
+ {
 //Configure below to change URL path to the snow image
 var snowsrc="/images/snow1.gif";
 // Configure below to change number of snow to render
@@ -72,4 +78,5 @@ function hidesnow(){
 if (ie4up||ns6up){
   snowIE_NS6();
 	if (hidesnowtime>0) setTimeout("hidesnow()", hidesnowtime*1000)
+}
 }

@@ -5,11 +5,11 @@
 <meta name='description' content='Personal page' />
 <meta name='keywords' content='git myhomelib' />
 <link rel="stylesheet" type="text/css" href="/styles.css" />
+<script type="text/javascript" src="/drag.js" type=text/javascript></script>
 
 <title>=</title>
 
 </head>
-
 <body background="/images/bg.gif" topmargin="0" leftmargin="0">
 
 <table cellSpacing="0" cellpadding="0" width="1000" border="0">
@@ -44,24 +44,12 @@ Sysadmins.ru: форум<br />системных администраторов.
 </td></tr>
 
 <tr><td width="160" valign="top">
-<script language="javascript" src="/m.js"></script>
-
+<script language="javascript" src="/m.js" type=text/javascript></script>
 <noscript><p><big><b>ENABLE JS SCRIPT - SITE WILL NOT WORK CORRECTLY!!!</b></big><br /></p></noscript>
 </td>
 <td width="840" valign="top"><img src="/images/ww.gif" width="840" height="1" alt="" border="0" /><br />
 
-<center><b><big><script type="text/javascript">  
-setInterval(function () {  
- date = new Date(),  
- h = date.getHours(),  
- m = date.getMinutes(),  
- s = date.getSeconds(),  
- h = (h < 10) ? '0' + h : h,  
- m = (m < 10) ? '0' + m : m,  
- s = (s < 10) ? '0' + s : s,  
- document.getElementById('time').innerHTML = h + ':' + m + ':' + s;  
-}, 1000);
-</script>
+<center><b><big><SCRIPT language=javascript src="/y_clock.js" type=text/javascript></SCRIPT>
 
 <span style="color:#7e5a25; font-size:14pt; border:2px solid #e1d4ae; background:#e8e3d4; padding:5px;"><span id="time">00:00:00</span> </span></big></b><br />
 
@@ -110,16 +98,8 @@ setInterval(function () {
 </table>
 </body>
 
-<SCRIPT language=javascript type=text/javascript>
-<!--
-const Years = '2023';
-msg="© 2003-"+Years+" by R.G.S.";
-status=msg;
-defaultStatus=msg;
-document.title = msg;
-document.getElementById("msgs").textContent = msg;
+<SCRIPT language=javascript src="/y_msg.js" type=text/javascript></SCRIPT>
+<SCRIPT language=javascript src="/snow.js" type=text/javascript></SCRIPT>
 
--->
-</SCRIPT>
 
 </html>
