@@ -298,5 +298,16 @@ makeMenu('sub','Главная страница','/')
 makeMenu('sub','Профиль на GitHub','https://github.com/SlalomJohn/','_blank')
 makeMenu('top','Новости')
 makeMenu('sub','2023 год','/2023-news.html')
+
+makeMenu('top','MyHomeLib')
+makeMenu('sub','Исходные коды')
+makeMenu('sub2','Версия 2.4.0.851','https://github.com/SlalomJohn/MyHomeLib/archive/refs/tags/v2.4.0.851.zip')
+makeMenu('sub','Бинарные файлы')
+makeMenu('sub2','EXE x32 2.4.0.851','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/MyHomeLib.x86.zip')
+makeMenu('sub2','EXE x64 2.4.0.851','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/MyHomeLib.x64.zip')
+makeMenu('sub2','Setup x32 2.4.0.851','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/Setup_MyHomeLib_2.4.0.zip')
+makeMenu('sub2','Setup x64 2.4.0.851','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/Setup_MyHomeLib_2.4.0_x64.zip')
+
+
 //Starting the menu
 onload=SlideMenuInit;
