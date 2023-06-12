@@ -300,14 +300,18 @@ makeMenu('top','Новости')
 makeMenu('sub','2023 год','/2023-news.html')
 
 makeMenu('top','MyHomeLib')
-makeMenu('sub','Исходные коды')
-makeMenu('sub2','Версия 2.4.0.851','https://github.com/SlalomJohn/MyHomeLib/archive/refs/tags/v2.4.0.851.zip')
-makeMenu('sub','Бинарные файлы')
-makeMenu('sub2','EXE x32 2.4.0.851','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/MyHomeLib.x86.zip')
-makeMenu('sub2','EXE x64 2.4.0.851','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/MyHomeLib.x64.zip')
-makeMenu('sub2','Setup x32 2.4.0.851','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/Setup_MyHomeLib_2.4.0.zip')
-makeMenu('sub2','Setup x64 2.4.0.851','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/Setup_MyHomeLib_2.4.0_x64.zip')
-
+makeMenu('sub','2.4.0.851')
+makeMenu('sub2','Sources','https://github.com/SlalomJohn/MyHomeLib/archive/refs/tags/v2.4.0.851.zip')
+makeMenu('sub2','EXE x32','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/MyHomeLib.x86.zip')
+makeMenu('sub2','EXE x64','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/MyHomeLib.x64.zip')
+makeMenu('sub2','Setup x32','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/Setup_MyHomeLib_2.4.0.zip')
+makeMenu('sub2','Setup x64','https://github.com/SlalomJohn/MyHomeLib/releases/download/v2.4.0.851/Setup_MyHomeLib_2.4.0_x64.zip')
+makeMenu('sub','2.4.0.850')
+makeMenu('sub2','Sources','https://github.com/SlalomJohn/MyHomeLib/archive/refs/tags/2.4.850.zip')
+makeMenu('sub2','EXE x32','https://github.com/SlalomJohn/MyHomeLib/releases/download/2.4.850/MyHomeLib_x32.zip')
+makeMenu('sub2','EXE x64','https://github.com/SlalomJohn/MyHomeLib/releases/download/2.4.850/MyHomeLib_x64.zip')
+makeMenu('sub','2.4.0.848 init')
+makeMenu('sub2','Sources','https://github.com/SlalomJohn/MyHomeLib/archive/refs/tags/Pub.zip')
 
 //Starting the menu
 onload=SlideMenuInit;
