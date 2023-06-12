@@ -313,5 +313,9 @@ makeMenu('sub2','EXE x64','https://github.com/SlalomJohn/MyHomeLib/releases/down
 makeMenu('sub','2.4.0.848 init')
 makeMenu('sub2','Sources','https://github.com/SlalomJohn/MyHomeLib/archive/refs/tags/Pub.zip')
 
+makeMenu('top','Inpx-Web')
+makeMenu('sub','1.5.5')
+makeMenu('sub2','Sources','https://github.com/SlalomJohn/inpx-web/archive/refs/tags/1.5.5.zip')
+
 //Starting the menu
 onload=SlideMenuInit;
