@@ -316,6 +316,10 @@ makeMenu('sub2','Sources','https://github.com/SlalomJohn/MyHomeLib/archive/refs/
 makeMenu('top','Inpx-Web')
 makeMenu('sub','1.5.5')
 makeMenu('sub2','Sources','https://github.com/SlalomJohn/inpx-web/archive/refs/tags/1.5.5.zip')
+makeMenu('sub2','Windows','https://github.com/SlalomJohn/inpx-web/releases/download/1.5.5/inpx-web-1.5.5-win.zip')
+makeMenu('sub2','Linux','https://github.com/SlalomJohn/inpx-web/releases/download/1.5.5/inpx-web-1.5.5-linux.zip')
+makeMenu('sub2','Linux Arm64','https://github.com/SlalomJohn/inpx-web/releases/download/1.5.5/inpx-web-1.5.5-linux-arm64.zip')
+makeMenu('sub2','MacOs','https://github.com/SlalomJohn/inpx-web/releases/download/1.5.5/inpx-web-1.5.5-macos.zip')
 
 //Starting the menu
 onload=SlideMenuInit;
