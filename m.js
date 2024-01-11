@@ -297,6 +297,7 @@ makeMenu('top','Страницы меню')
 makeMenu('sub','Главная страница','/')
 makeMenu('sub','Профиль на GitHub','https://github.com/SlalomJohn/','_blank')
 makeMenu('top','Новости')
+makeMenu('sub','2024 год','/2024-news.html')
 makeMenu('sub','2023 год','/2023-news.html')
 
 makeMenu('top','MyHomeLib')
